@@ -49,5 +49,3 @@ for (let i = 1; i <= n; i++) {
   }
   document.write(`<br>`);
 }
-
-document.write(`<br>`);
