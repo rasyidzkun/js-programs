@@ -6,7 +6,7 @@ const countConsonantLength = () => {
 };
 
 const countConsonant = () => {
-  const count = str.match(/[^aiueo ]/gi);
+  const count = str.match(/[^aiueo 0-9]/gi);
   return count;
 };
 
