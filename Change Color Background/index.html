@@ -13,23 +13,31 @@
         box-sizing: border-box;
       }
 
+      .outer-container {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+      }
+
       .container {
         display: flex;
         justify-content: center;
-        margin: 23% auto;
+        align-items: center;
       }
 
       button {
         padding: 10px 26px;
         border-radius: 10px;
-        overflow: hidden;
+        background: white;
         border: none;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <button onclick="change()">Click Me</button>
+    <div class="outer-container">
+      <div class="container">
+        <button onclick="change()">Click Me</button>
+      </div>
     </div>
 
     <script src="main.js"></script>

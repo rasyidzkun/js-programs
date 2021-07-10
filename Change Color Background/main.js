@@ -15,9 +15,10 @@ const colors = [
   "royalblue",
   "palegreen",
   "steelblue",
+  "lightblue",
 ];
 
-body.style.backgroundColor = "lightblue";
+body.style.backgroundColor = "skyblue";
 button.addEventListener("click", change);
 
 function change() {
