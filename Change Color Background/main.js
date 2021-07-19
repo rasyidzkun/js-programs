@@ -20,7 +20,7 @@ const colors = [
 
 body.style.backgroundColor = "skyblue";
 
-button.addEventListener("click", function () {
+button.addEventListener("click",() => {
   const colorIndex = parseInt(Math.random() * colors.length);
   body.style.backgroundColor = colors[colorIndex];
 });

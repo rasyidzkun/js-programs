@@ -13,8 +13,7 @@ if (isNaN(num)) {
 }
 
 const playAgain = confirm("Apakah anda ingin mencoba lagi ? ");
-if (playAgain) {
-  location.reload();
-} else {
-  alert("Terimakasih sudah bermain");
-}
+
+const again = playAgain
+  ? location.reload()
+  : alert("Terimakasih sudah bermain");

@@ -9,9 +9,5 @@ if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
   alert(`Angka terbesar adalah : ${result}`);
 }
 
-const play = confirm("Ingin bermain sekali lagi ?");
-if (play) {
-  location.reload();
-} else {
-  alert("Terimakasih telah bermain");
-}
+const play = confirm("Apakah anda ingin bermain lagi ?");
+const again = play ? location.reload() : alert("Terimakasih telah bermain");
