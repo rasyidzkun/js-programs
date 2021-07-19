@@ -18,7 +18,7 @@ function user(name, email) {
   return user;
 }
 
-let userOne = user("Ar Rasyid", "rasyidzkun.gmail.com");
+let userOne = user("Ar Rasyid", "rasyidzkun@gmail.com");
 let userTwo = user("Bokuto Kotarou", "bokutokotarou44@gmail.com");
 
 userOne.login();

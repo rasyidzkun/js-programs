@@ -6,7 +6,7 @@ function User(name, email) {
   this.logout = () => console.log(`${this.email} just logged out`);
 }
 
-let userOne = new User("Ar Rasyid", "rasyidzkun.gmail.com");
+let userOne = new User("Ar Rasyid", "rasyidzkun@gmail.com");
 let userTwo = new User("Bokuto Kotarou", "bokutokotarou44@gmail.com");
 
 userOne.login();
