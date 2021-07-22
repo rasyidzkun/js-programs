@@ -18,7 +18,7 @@ User.prototype.logout = function () {
 //Superuser constructor
 function SuperUser(...args) {
   User.apply(this, args);
-  this.role = "Super User";
+  this.role = "Admin";
 }
 
 // Inherit prototype
