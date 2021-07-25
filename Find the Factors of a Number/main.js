@@ -6,14 +6,13 @@ for (let i = 1; i <= num; i++) {
   }
 }
 
-if (isNaN(num)) {
-  alert("Tolong masukkan angka");
-} else if (num < 0) {
-  alert("Tolong masukkan angka positif");
-}
+const warning = isNaN(num)
+  ? alert(`Tolong masukkan angka`)
+  : num < 0
+  ? alert("Tolong masukkan angka positif")
+  : "";
 
 const playAgain = confirm("Apakah anda ingin mencoba lagi ? ");
-
 const again = playAgain
   ? location.reload()
   : alert("Terimakasih sudah bermain");
