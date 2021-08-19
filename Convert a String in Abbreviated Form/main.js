@@ -7,4 +7,4 @@ function abbrev(str) {
   return splitName.join();
 }
 
-console.log(abbrev("Kucing Menangis"));
+console.log(abbrev("Kucing Menangis")); //Kucing M.

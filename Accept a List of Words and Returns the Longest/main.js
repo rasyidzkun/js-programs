@@ -10,3 +10,4 @@ function longest(arr) {
 }
 
 console.log(longest(["Australia", "Germany", "United States of America"]));
+// United States of America
